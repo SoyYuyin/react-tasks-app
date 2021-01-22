@@ -7,10 +7,13 @@ const Header = ({ title }) => {
   };
 
   return (
-    <header className="header">
-      <h1>{title}</h1>
-      <Button text="Add" onClick={onClick} />
-    </header>
+    <>
+      <header className="header">
+        <h1>{title}</h1>
+       <Button text="Add" onClick={onClick} />
+      </header>
+      <p>Double click to add reminder</p>
+    </>
   );
 };
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
   min-height: 300px;
   border: 3px solid steelblue;
   padding: 20px;
-  border-radius:3px;
+  border-radius: 3px;
 }
 
 .header {
@@ -63,6 +63,7 @@ body {
 
 .task.reminder {
   border-left: 5px solid green;
+  border-bottom: 5px solid green;
 }
 
 .task h3 {
